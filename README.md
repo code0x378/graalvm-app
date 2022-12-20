@@ -1,6 +1,7 @@
-# Graalvm Test Project
+# Javalin Graalvm Test Project
 
-The following assumes GraalVM is setup and in the path.
+The following assumes GraalVM is set up and in the path.  Make sure you have the `native-image` command available.  
+You can check this by running `native-image --version`.  Run `gu install native-image` if it is not available. 
 
 1. Create a shadow jar via gradle task
 
